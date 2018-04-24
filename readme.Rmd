@@ -29,7 +29,7 @@ install.packages("drat")
 
 ```{r, eval = FALSE}
 drat::addRepo("courtiol")
-install.packages("LM2GLMM")
+install.packages("SileR")
 ```
 
 ## Usage
