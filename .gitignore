@@ -1,0 +1,8 @@
+.Rproj.user
+.DS_Store
+SileR.Rproj
+tests/
+prepare_data/
+SurvEles.rda
+private_data.R
+.Rbuildignore
