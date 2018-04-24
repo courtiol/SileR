@@ -6,3 +6,4 @@ prepare_data/
 SurvEles.rda
 private_data.R
 .Rbuildignore
+readme.html
