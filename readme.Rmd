@@ -19,13 +19,21 @@ steps of our analysis.
 
 ## Installation
 
-1. install the R package ```drat``` (only if you don't have it):
+1. make sure you have the tools allowing to compile R packages on your computer:
+
+* if you are using Linux, you should already have them.
+
+* if you are using MacOS, you need to install Xcode (available from https://developer.apple.com/xcode/) if you have not done it.
+
+* if you are using Windows, you need to install Rtools (available from https://cran.r-project.org/bin/windows/Rtools/) if you have not done it.
+
+2. install the R package ```drat``` (only if you don't have it):
 
 ```{r, eval = FALSE}
 install.packages("drat")
 ```
 
-2. install the R package SileR:
+3. install the R package SileR:
 
 ```{r, eval = FALSE}
 drat::addRepo("courtiol")
