@@ -7,3 +7,6 @@ SurvEles.rda
 private_data.R
 .Rbuildignore
 readme.html
+extra.o
+RcppExports.o
+SileR.so
