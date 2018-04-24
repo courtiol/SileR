@@ -17,28 +17,45 @@ have to be fited on right and left censored longitudinal data.
 This package has not been conceived for general use. It serves to document the
 steps of our analysis.
 
-## Installation
 
-1. make sure you have the tools allowing to compile R packages on your computer:
+## How to explore the sources of the package?
 
-* if you are using Linux, you should already have them.
+To see our source code, you can either browse the files above within GitHub or 
+download the *.tar.gz file containing all sources bundled with some data to 
+try out our function in R.
+This file is available here: https://github.com/courtiol/drat/blob/gh-pages/src/contrib/SileR_0.2.tar.gz
 
-* if you are using MacOS, you need to install Xcode (available from https://developer.apple.com/xcode/) if you have not done it.
 
-* if you are using Windows, you need to install Rtools (available from https://cran.r-project.org/bin/windows/Rtools/) if you have not done it.
+## Installation requirements
 
-2. install the R package ```drat``` (only if you don't have it):
+To install succesfully the R package you will need:
+
+* an up to date installation of R (https://cran.r-project.org)
+
+* the tools allowing to compile R packages on your computer:
+
+    * if you are using Linux, you should already have them.
+
+    * if you are using MacOS, you need to install Xcode (available from https://developer.apple.com/xcode/) if you have not done it.
+
+    * if you are using Windows, you need to install Rtools (available from https://cran.r-project.org/bin/windows/Rtools/) if you have not done it.
+
+* the R package ```drat``` installed. You can install it by typing:
 
 ```{r, eval = FALSE}
 install.packages("drat")
 ```
 
-3. install the R package SileR:
+
+## Installation
+
+To install the R package SileR, simply type:
 
 ```{r, eval = FALSE}
 drat::addRepo("courtiol")
 install.packages("SileR")
 ```
+
 
 ## Usage
 
@@ -53,8 +70,3 @@ library("SileR")
 ```{r, eval = FALSE}
 help("SileR")
 ```
-
-## How to explore the sources of the package?
-
-You can either browse the file above within GitHub or download the *.tar.gz file containing the sources.
-This file is available here: https://github.com/courtiol/drat/blob/gh-pages/src/contrib/SileR_0.2.tar.gz
