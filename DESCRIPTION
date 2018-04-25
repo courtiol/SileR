@@ -13,6 +13,8 @@ Imports:
     parallel,
     Rcpp
 Suggests:
+    devtools,
+    drat,
     openxlsx,
     R.utils
 LinkingTo:
