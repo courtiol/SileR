@@ -3,7 +3,7 @@
 #'
 #' This R package aims at documenting the workflow behind the results from the
 #' paper entitled "Differences in age-specific mortality between wild-caught and
-#' captive-born Asian elephants" by Khyne U Mar, Mirkka Lahdenperä, Alexandre
+#' captive-born Asian elephants" by Mirkka Lahdenperä, Khyne U Mar, Alexandre
 #' Courtiol and Virpi Lummaa. The main function of the package is to fit
 #' survival models derived from a model introduced by Siler (1979). The main
 #' differences are that the effect of covariate(s) are being investigated and
