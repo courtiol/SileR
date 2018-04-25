@@ -1,7 +1,7 @@
 #' Provide demographic information about the data
 #'
 #' This is a main function of this package. It displays the information about
-#' the demography of elephants that we repported in the paper.
+#' the demography of elephants that we reported in the paper.
 #'
 #' @inheritParams parameters
 #'
@@ -93,7 +93,7 @@ compute_demography <- function(data){
 #' Provide survival information
 #'
 #' This is a main function of this package. It displays the information about
-#' the survival of elephants that we repported in the paper (e.g. half life...).
+#' the survival of elephants that we reported in the paper (e.g. half life...).
 #'
 #' @inheritParams parameters
 #'

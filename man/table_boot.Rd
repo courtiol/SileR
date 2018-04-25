@@ -27,7 +27,7 @@ The table(s) produced contain the following columns:
   \item \code{beta} the parameter estimate in the original fit
   \item \code{mean} the mean of the parameter estimates across the fits on the bootstrapped data
   \item \code{bias} the difference between the column \var{mean} and \var{beta}
-  \item \code{SE} the standard _error_ of the parameter estimates as computed as the standard _deviation_ of the parameter estimates across the fits on the bootstrapped data
+  \item \code{SE} the standard _error_ of the parameter estimates computed as the standard _deviation_ of the parameter estimates across the fits on the bootstrapped data
   \item \code{lwr} the lower boundary of the 95\% confidence interval approximated as \code{pnorm(0.025)*SE}
   \item \code{upr} the upper boundary of the 95\% confidence interval approximated as \code{pnorm(0.975)*SE}
 }

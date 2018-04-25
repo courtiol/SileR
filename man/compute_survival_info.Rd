@@ -14,7 +14,7 @@ Nothing, only displays the outcome.
 }
 \description{
 This is a main function of this package. It displays the information about
-the survival of elephants that we repported in the paper (e.g. half life...).
+the survival of elephants that we reported in the paper (e.g. half life...).
 }
 \examples{
 compute_survival_info(models_list = Models)

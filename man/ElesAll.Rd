@@ -3,7 +3,7 @@
 \docType{data}
 \name{ElesAll}
 \alias{ElesAll}
-\title{The dataset of information at the individual level for all elephant}
+\title{The dataset of information at the individual level for all elephants}
 \format{A \var{dataframe} with 5150 elephants.}
 \description{
 This dataset contains the breakdowns for the counts of elephants used in the

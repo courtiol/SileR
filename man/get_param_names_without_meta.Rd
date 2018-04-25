@@ -2,7 +2,7 @@
 % Please edit documentation in R/parameters.R
 \name{get_param_names_without_meta}
 \alias{get_param_names_without_meta}
-\title{This function trim out the meta suffix from the names of parameters}
+\title{This function trims out the meta suffix from the names of parameters}
 \usage{
 get_param_names_without_meta(param_names)
 }

@@ -14,7 +14,7 @@ Nothing, only displays the outcome.
 }
 \description{
 This is a main function of this package. It displays the information about
-the demography of elephants that we repported in the paper.
+the demography of elephants that we reported in the paper.
 }
 \examples{
 compute_demography(data = SurvEles_small)

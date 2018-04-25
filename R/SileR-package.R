@@ -38,7 +38,7 @@
 #' Virpi Lummaa (2018). Differences in age-specific mortality between
 #' wild-caught and captive-born Asian elephants.
 #'
-#' William Siler (1979). A competiting-risk model for animal mortality. Ecology.
+#' William Siler (1979). A competiting-risk model for animal mortality. Ecology 60(4), 750-757.
 #'
 #' @keywords package
 #' @examples
@@ -115,7 +115,7 @@
 #' ##  Basic information about survival predictions ##
 #' ###################################################
 #'
-#' ### Note: the following outputs are computed on the models fited on the complete
+#' ### Note: the following outputs are computed on the models fitted on the complete
 #' ### dataset. So they should be the same as in the paper!
 #' ### If you have computed Models_small above, use that
 #' ### instead of Models to see the results based on your fits.
@@ -127,7 +127,7 @@
 #' ##  Basic information about top models ##
 #' #########################################
 #'
-#' ### Note: the following outputs are computed on the models fited on the complete
+#' ### Note: the following outputs are computed on the models fitted on the complete
 #' ### dataset. So they should be the same as in the paper!
 #' ### If you have computed Models_small above, use that
 #' ### instead of Models to see the results based on your fits.
@@ -139,7 +139,7 @@
 #' ##  Basic information about the best model ##
 #' #############################################
 #'
-#' ### Note: the following outputs are computed on the models fited on the complete
+#' ### Note: the following outputs are computed on the models fitted on the complete
 #' ### dataset. So they should be the same as in the paper!
 #' ### If you have computed Models_small above, use that
 #' ### instead of Models to see the results based on your fits.
@@ -151,7 +151,7 @@
 #' ##  Creating the tables of the paper ##
 #' #######################################
 #'
-#' ### Note: the following outputs are computed on the models fited on the complete
+#' ### Note: the following outputs are computed on the models fitted on the complete
 #' ### dataset. So they should be the same as in the paper!
 #' ### If you have computed Models_small and Models_boot_small above, use those
 #' ### instead of Models and Models_boot to see the results based on your fits.

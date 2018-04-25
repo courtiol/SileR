@@ -14,7 +14,7 @@ save_xlsx(table, file_name, name_first_column = NULL)
 \item{name_first_column}{The name of the first column which is taken from the row names of the table}
 }
 \value{
-The input table (invisibly).
+The input table (but the return is invisible).
 }
 \description{
 This function is called internally by other functions. It is a wrapper for

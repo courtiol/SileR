@@ -18,7 +18,7 @@ A data.frame containing the estimates.
 }
 \description{
 This is a main function of this package. It builds the table containing all
-parameter estimates for all models, as well as those produce produced by
+parameter estimates for all models, as well as those produced by
 model averaging.
 }
 \examples{

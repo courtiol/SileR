@@ -37,7 +37,7 @@
 #' @param save_pdf A boolean indicating whether saving the plot as a *.pdf object or not
 #' @param save_rda A boolean indicating whether saving the model as a *.rda object or not
 #' @param save_xlsx A boolean indicating whether saving the table as a *.xlsx document or not
-#' @param scale The scaling parameter (usefull if the optimisation function can only minimise)
+#' @param scale The scaling parameter (useful if the optimisation function can only minimise)
 #' @param seed An integer giving the seed for the (pseudo-)random generator
 #' @param sex A character indicating the sex of the elephant: \var{"males"} or \var{"females"}
 #' @param steps An integer giving the number of increments for the interpolation (within each year)

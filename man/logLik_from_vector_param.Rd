@@ -17,7 +17,7 @@ logLik_from_vector_param(param_values, param_str, data, indices = NULL,
 
 \item{indices}{The list of indices computed by \code{compute_indices}}
 
-\item{scale}{The scaling parameter (usefull if the optimisation function can only minimise)}
+\item{scale}{The scaling parameter (useful if the optimisation function can only minimise)}
 
 \item{param_matrix}{The matrix storing parameter values}
 
@@ -31,7 +31,7 @@ The scaled log-likelihood.
 \description{
 This function is called internally by other functions.
 It is a wrapper to the function \code{\link{logLik_from_design_matrix}} which has
-inputs consistent the the requirements of optimisation routines.
+inputs consistent to the requirements of optimisation routines.
 }
 \details{
 If the argument \code{param_matrix} is given, the parameter matrix will be

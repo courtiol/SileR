@@ -83,7 +83,7 @@ parameters(age_at_capture, ages, capture_method, check, data, death_prob,
 
 \item{save_xlsx}{A boolean indicating whether saving the table as a *.xlsx document or not}
 
-\item{scale}{The scaling parameter (usefull if the optimisation function can only minimise)}
+\item{scale}{The scaling parameter (useful if the optimisation function can only minimise)}
 
 \item{seed}{An integer giving the seed for the (pseudo-)random generator}
 

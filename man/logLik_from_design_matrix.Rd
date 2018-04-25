@@ -11,7 +11,7 @@ logLik_from_design_matrix(data, design_matrix, scale = 1, indices = NULL)
 
 \item{design_matrix}{The design matrix}
 
-\item{scale}{The scaling parameter (usefull if the optimisation function can only minimise)}
+\item{scale}{The scaling parameter (useful if the optimisation function can only minimise)}
 
 \item{indices}{The list of indices computed by \code{compute_indices}}
 }
@@ -20,8 +20,8 @@ The scaled log-likelihood.
 }
 \description{
 This function is called internally by other functions.
-It prepares data and call \code{\link{predictorC_wrap}} to predict the probability of death
-and then call the C++ function \code{compute_logLikC} which computes the log-likelihood in C++.
+It prepares data and calls \code{\link{predictorC_wrap}} to predict the probability of death
+and then calls the C++ function \code{compute_logLikC} to computes the log-likelihood in C++.
 }
 \examples{
 pmat <- build_param_matrix(param_values = c(0.1, 0.2), param_str = c("w1" = "s"))

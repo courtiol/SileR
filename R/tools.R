@@ -119,7 +119,7 @@ This is probably because you did not use the complete dataset.")
 #' the function \code{\link[openxlsx:write.xlsx]{write.xlsx}} of the package \pkg{openxlsx}.
 #'
 #' @inheritParams parameters
-#' @return The input table (invisibly).
+#' @return The input table (but the return is invisible).
 #' @export
 #'
 save_xlsx <- function(table, file_name, name_first_column = NULL){

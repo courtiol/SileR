@@ -11,7 +11,7 @@ compute_logLikC(pred_prob, surv_bin, scale)
 
 \item{surv_bin}{The binary response variable taking 1 for alive and 0 for death}
 
-\item{scale}{The scaling parameter (usefull if the optimisation function can only minimise)}
+\item{scale}{The scaling parameter (useful if the optimisation function can only minimise)}
 }
 \description{
 This function is a C++ implementation of \code{\link{compute_logLik}}.

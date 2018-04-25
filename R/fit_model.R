@@ -101,8 +101,8 @@ compute_logLik <- function(pred_prob, surv_bin, scale = 1L) {
 #' Compute the log-likelihood from the design matrix
 #'
 #' This function is called internally by other functions.
-#' It prepares data and call \code{\link{predictorC_wrap}} to predict the probability of death
-#' and then call the C++ function \code{compute_logLikC} which computes the log-likelihood in C++.
+#' It prepares data and calls \code{\link{predictorC_wrap}} to predict the probability of death
+#' and then calls the C++ function \code{compute_logLikC} to computes the log-likelihood in C++.
 #' @inheritParams parameters
 #'
 #' @return The scaled log-likelihood.
@@ -124,7 +124,7 @@ logLik_from_design_matrix <- function(data, design_matrix, scale = 1, indices = 
 #'
 #' This function is called internally by other functions.
 #' It is a wrapper to the function \code{\link{logLik_from_design_matrix}} which has
-#' inputs consistent the the requirements of optimisation routines.
+#' inputs consistent to the requirements of optimisation routines.
 #'
 #' If the argument \code{param_matrix} is given, the parameter matrix will be
 #' updated and not build from scratch. This will save some computation time.

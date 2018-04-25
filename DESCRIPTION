@@ -25,7 +25,7 @@ Description:
     package is to fit survival models derived from a model introduced by 
     Siler ("A competiting-risk model for animal mortality", Ecology, 1979). The
     main differences are that the effect of covariate(s) are being investigated 
-    and that the survival models have to be fited on right and left censored 
+    and that the survival models have to be fitted on right and left censored 
     longitudinal data. This package has not been conceived for general use.
     It serves to document the steps of our analysis.
 License: GPL (>= 2)

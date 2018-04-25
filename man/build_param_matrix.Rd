@@ -16,7 +16,7 @@ A matrix.
 }
 \description{
 This function is called internally by other functions.
-It initializes the matrix storing parameters values. This function
+It initializes the matrix storing parameter values. This function
 is used to set the initial parameter values before optimisation and to update
 the parameter values during optimisation. The matrix created by the function
 contains as many rows as the number of parameters and one column storing the

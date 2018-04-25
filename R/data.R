@@ -28,7 +28,7 @@
 NULL
 
 
-#' The dataset of information at the individual level for all elephant
+#' The dataset of information at the individual level for all elephants
 #'
 #' This dataset contains the breakdowns for the counts of elephants used in the
 #' paper.
@@ -56,11 +56,12 @@ NULL
 NULL
 
 
-#' Datasets of information at the individual level for captured elephant
+#' Datasets of information at the individual level for captured elephants
 #'
 #' This object contains a list with two datasets containing the breakdowns for
 #' the counts of captured elephants used in the paper. One list provides
-#' breakdowns per capture age and the other one provides breakdowns per decade.
+#' breakdowns per capture age and the other one provides breakdowns per capture
+#' decade.
 #'
 #' @seealso SurvEles_small, ElesAll
 #'

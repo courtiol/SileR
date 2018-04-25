@@ -15,7 +15,7 @@ A data frame containing the results.
 \description{
 This function provides evidence ratios and AIC differences among top models.
 The top models are the set of best models for which the sum of weights amount
-to 95% of the sum on all 17 models.
+to 95\% of the sum on all 17 models.
 }
 \examples{
 evidence_ratios_top_models(models_list = Models)

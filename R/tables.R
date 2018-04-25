@@ -2,7 +2,7 @@
 #'
 #' This is a main function of this package. It builds the table containing the
 #' prediction for the median lifespans for the different categories of elephants.
-#' The predictions are done for two age at capture (5 and 20 years old).
+#' The predictions are done for two ages at capture (5 and 20 years old).
 #'
 #' @inheritParams parameters
 #' @return A data frame containing the median lifespans.
@@ -50,7 +50,7 @@ table_lifespan <- function(models_list, save_xlsx = FALSE){
 #' Build the table with model parameter estimates for all models
 #'
 #' This is a main function of this package. It builds the table containing all
-#' parameter estimates for all models, as well as those produce produced by
+#' parameter estimates for all models, as well as those produced by
 #' model averaging.
 #'
 #' @inheritParams parameters
@@ -220,7 +220,7 @@ list_tables_boot <- function(models_list, models_list_boot, print = TRUE) {
 #'   \item \code{beta} the parameter estimate in the original fit
 #'   \item \code{mean} the mean of the parameter estimates across the fits on the bootstrapped data
 #'   \item \code{bias} the difference between the column \var{mean} and \var{beta}
-#'   \item \code{SE} the standard _error_ of the parameter estimates as computed as the standard _deviation_ of the parameter estimates across the fits on the bootstrapped data
+#'   \item \code{SE} the standard _error_ of the parameter estimates computed as the standard _deviation_ of the parameter estimates across the fits on the bootstrapped data
 #'   \item \code{lwr} the lower boundary of the 95\% confidence interval approximated as \code{pnorm(0.025)*SE}
 #'   \item \code{upr} the upper boundary of the 95\% confidence interval approximated as \code{pnorm(0.975)*SE}
 #' }
@@ -311,7 +311,7 @@ table_all_models <- function(models_list, save_xlsx = FALSE, print = TRUE) {
 #'
 #' This function provides evidence ratios and AIC differences among top models.
 #' The top models are the set of best models for which the sum of weights amount
-#' to 95% of the sum on all 17 models.
+#' to 95\% of the sum on all 17 models.
 #'
 #' @inheritParams parameters
 #'

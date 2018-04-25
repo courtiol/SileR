@@ -64,13 +64,13 @@ predict <- function(model, newdata) {
   return(pred)
 }
 
-#' Predict the mortality of captive individuals
+#' Predict the mortality of captive born individuals
 #'
-#' This function predicts the mortality of captive individuals.
+#' This function predicts the mortality of captive born individuals.
 #'
 #' @inheritParams parameters
 #'
-#' @return A list containing the predicted mortality of captive males and females.
+#' @return A list containing the predicted mortality of captive born males and females.
 #' @export
 #' @seealso \code{\link{predict}}
 #'

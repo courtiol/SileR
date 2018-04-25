@@ -17,7 +17,7 @@ A data frame containing the median lifespans.
 \description{
 This is a main function of this package. It builds the table containing the
 prediction for the median lifespans for the different categories of elephants.
-The predictions are done for two age at capture (5 and 20 years old).
+The predictions are done for two ages at capture (5 and 20 years old).
 }
 \examples{
 table_lifespan(models_list = Models)

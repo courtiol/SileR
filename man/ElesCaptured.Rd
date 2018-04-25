@@ -3,12 +3,13 @@
 \docType{data}
 \name{ElesCaptured}
 \alias{ElesCaptured}
-\title{Datasets of information at the individual level for captured elephant}
+\title{Datasets of information at the individual level for captured elephants}
 \format{A \var{list} with two \var{data.frame} describing the 2072 captured elephants.}
 \description{
 This object contains a list with two datasets containing the breakdowns for
 the counts of captured elephants used in the paper. One list provides
-breakdowns per capture age and the other one provides breakdowns per decade.
+breakdowns per capture age and the other one provides breakdowns per capture
+decade.
 }
 \examples{
 

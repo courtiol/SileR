@@ -74,7 +74,7 @@ build_param_names <- function(meta_param_name, meta_param_type, check = TRUE){
 #' Build the matrix storing parameters
 #'
 #' This function is called internally by other functions.
-#' It initializes the matrix storing parameters values. This function
+#' It initializes the matrix storing parameter values. This function
 #' is used to set the initial parameter values before optimisation and to update
 #' the parameter values during optimisation. The matrix created by the function
 #' contains as many rows as the number of parameters and one column storing the
@@ -250,7 +250,7 @@ get_param_name <- function(meta_param_name = NULL, param_names) {
 }
 
 
-#' This function trim out the meta suffix from the names of parameters
+#' This function trims out the meta suffix from the names of parameters
 #'
 #' This function is called internally by other functions. It is a simple
 #' utility function.

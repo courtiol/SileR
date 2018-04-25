@@ -276,8 +276,8 @@ plot_captured_demog <- function(data, save_pdf = FALSE){
 #'
 #' The survivorship curves are averages of individual predictions matching each
 #' observation. They thus capture the effects of differences in sample size
-#' according to birth cohorts, regions, time since capture... between the
-#' differentcapture methods.
+#' according to birth cohorts, regions, time since capture... between
+#' different capture methods.
 #'
 #' @inheritParams parameters
 #'
