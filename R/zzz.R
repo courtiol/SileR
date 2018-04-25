@@ -5,7 +5,7 @@
     "\n Welcome to SileR,",
     "\n this package has not been conceived for general use. It has only been created to replicate the results of the paper:",
     "\n ",
-    "\n Mar, Lahdenper\u00E4, Courtiol and Lummaa (2018) Differences in age-specific mortality between wild-caught and captive-born Asian elephants.",
+    "\n Lahdenper\u00E4, Mar, Courtiol and Lummaa (2018) Differences in age-specific mortality between wild-caught and captive-born Asian elephants.",
     "\n ",
     "\n We invite you to explore the content of this package and replicate the results of the paper.",
     "\n ",
