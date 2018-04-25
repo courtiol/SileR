@@ -18,7 +18,7 @@ A data frame containing the interpolated survivorship probabilities for each age
 }
 \description{
 This function is called internally by other functions. It interpolates yearly
-survivorship probablitites. The method is described in Slud 2001.
+survivorship probabilities. The method is described in Slud 2001.
 }
 \examples{
 interpol_surv(death_prob = c(0.1, 0.8, 0.9, 0.9), ages = 1:4)

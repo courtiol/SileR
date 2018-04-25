@@ -149,7 +149,7 @@ NULL
 #' max(abs(100*((CI_with_pb$SE - CI_without_pb$SE) /  CI_without_pb$SE)), na.rm = TRUE)
 #' ### Conclusion: only 3 fits out of 680 reached maximal time allowed before
 #' ### reaching full convergence. Those 3 model fits impact the SE of parameter
-#' ### estimates by less than 1.8% in the worst situation, which is negligeable.
+#' ### estimates by less than 1.8% in the worst situation, which is negligible.
 #' ### We thus chose not to exclude them and base all CI computation on all 680
 #' ### fits.
 #'

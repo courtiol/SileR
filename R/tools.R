@@ -51,7 +51,7 @@ compute_estimates_average <- function(models_list) {
 #' Interpolate yearly survivorship
 #'
 #' This function is called internally by other functions. It interpolates yearly
-#' survivorship probablitites. The method is described in Slud 2001.
+#' survivorship probabilities. The method is described in Slud 2001.
 #'
 #' @references
 #' Slud 2001 Actuarial Mathematics and Life-Table Statistics
