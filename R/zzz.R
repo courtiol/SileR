@@ -3,13 +3,14 @@
   ## It displays a message when the package is being loaded.
   packageStartupMessage(## display message
     "\n Welcome to SileR,",
-    "\n this package has not been conceived for general use. It has only been created to replicate the results of the paper:",
     "\n ",
-    "\n Lahdenper\u00E4, Mar, Courtiol and Lummaa (2018) Differences in age-specific mortality between wild-caught and captive-born Asian elephants.",
+    "\n This package has not been conceived for general use.",
+    "\n It has only been created to document the analysis of the paper:",
     "\n ",
-    "\n We invite you to explore the content of this package and replicate the results of the paper.",
+    "\n Lahdenper\u00E4, Mar, Courtiol and Lummaa (2018)",
+    "\n Differences in age-specific mortality between wild-caught and captive-born Asian elephants.",
     "\n ",
-    "\n Type ?SileR for more details",
+    "\n Type ?SileR for information about how to use this package!",
     "\n"
   )
 }
