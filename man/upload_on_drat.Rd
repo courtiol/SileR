@@ -4,7 +4,10 @@
 \alias{upload_on_drat}
 \title{Build and upload the package on drat}
 \usage{
-upload_on_drat()
+upload_on_drat(binary = FALSE)
+}
+\arguments{
+\item{binary}{A boolean indicated if the binary version of the package must be built}
 }
 \description{
 This is a function for development purpose only. Drat is a package that

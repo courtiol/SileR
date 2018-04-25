@@ -44,10 +44,12 @@ info_package <- function() {
 #' package, commits the changes and push them on the drat repository on GitHub.
 #' It is designed to work on the maintainer computer only.
 #'
-upload_on_drat <- function(){
+#' @inheritParams parameters
+#'
+upload_on_drat <- function(binary = FALSE){
   if (requireNamespace("devtools") & requireNamespace("drat")) {
     print("Building the package...")
-    path <- devtools::build(binary = FALSE)
+    path <- devtools::build(binary = TRUE)
     print("Moving the package to local drat folder and commiting changes in git...")
     drat::insertPackage(path, "~/Boulot/Mes_projets_de_recherche/R_packages/drat", commit = TRUE)
     print("Pushing the package on GitHub...")

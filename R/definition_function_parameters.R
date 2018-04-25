@@ -4,6 +4,7 @@
 #'
 #' @param age_at_capture The age at capture
 #' @param ages A vector of ages for which to perform the interpolation
+#' @param binary A boolean indicated if the binary version of the package must be built
 #' @param capture_method A character indicating the method of capture of the elephant: \var{"CAPTIVE"}, \var{"IMM"}, \var{"MILARSHI"} or \var{"STOCKADE"}
 #' @param check Whether the arguments should be checked against expected types
 #' @param data The dataset to be used

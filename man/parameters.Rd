@@ -98,6 +98,8 @@ parameters(age_at_capture, ages, capture_method, check, data, death_prob,
 \item{ub}{Upper boundary for parameter values during the optimisation (default = 3)}
 
 \item{xtol_rel}{Tolerance parameter for nloptr}
+
+\item{binary}{A boolean indicated if the binary version of the package must be built}
 }
 \description{
 Here is the list of all parameters used in the package.
