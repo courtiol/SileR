@@ -40,7 +40,7 @@ some development tools.
 
 Whichever option you choose, to install successfully the R package you will need:
 
-* an up to date installation of R (https://cran.r-project.org)
+* an up to date installation of R (https://cran.r-project.org);
 
 * the R package ```drat``` installed. You can install it by typing:
 
@@ -63,11 +63,11 @@ install.packages("SileR")
 
 This option requires the tools allowing to compile R packages on your computer:
 
-    * if you are using Linux, you should already have them.
+* if you are using Linux, you should already have them;
 
-    * if you are using MacOS, you need to install Xcode (available from https://developer.apple.com/xcode/) if you have not done it.
+* if you are using MacOS, you need to install Xcode (available from https://developer.apple.com/xcode/) if you have not done it;
 
-    * if you are using Windows, you need to install Rtools (available from https://cran.r-project.org/bin/windows/Rtools/) if you have not done it.
+* if you are using Windows, you need to install Rtools (available from https://cran.r-project.org/bin/windows/Rtools/) if you have not done it.
 
 Then, simply type the following:
 
