@@ -3,8 +3,8 @@
 This is the GitHub repository hosting the R package SileR. The package will not
 evolve much in the future because it aims at documenting how we obtained the
 results for the paper entitled "Differences in age-specific mortality
-between wild-caught and captive-born Asian elephants" by Khyne U Mar,
-Mirkka Lahdenperä, Alexandre Courtiol and Virpi Lummaa (in review).
+between wild-caught and captive-born Asian elephants" by Mirkka Lahdenperä, 
+Khyne U Mar, Alexandre Courtiol and Virpi Lummaa (in review).
 The only planned updates are those that will be necessary to maintain
 compatibility with other packages, so that our code won't break.
 
@@ -12,7 +12,7 @@ The main goal of the R package SileR is to fit survival models derived from a
 model introduced by Siler ("A competiting-risk model
 for animal mortality", Ecology, 1979). The main differences are that the
 effect of covariate(s) are being investigated and that the survival models
-have to be fited on right and left censored longitudinal data.
+have to be fitted on right and left censored longitudinal data.
 
 This package has not been conceived for general use. It serves to document the
 steps of our analysis.
