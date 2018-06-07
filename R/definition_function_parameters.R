@@ -49,6 +49,7 @@
 #'
 parameters <- function(age_at_capture,
                        ages,
+                       binary,
                        capture_method,
                        check,
                        data,

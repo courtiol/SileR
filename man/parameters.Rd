@@ -4,18 +4,20 @@
 \alias{parameters}
 \title{Definition for parameters}
 \usage{
-parameters(age_at_capture, ages, capture_method, check, data, death_prob,
-  design_matrix, empty_design_matrix, empty_param_matrix_full, file_name,
-  fit_original, indices, lb, maxtime, meta_param_name, meta_param_type, model,
-  models_list, models_list_boot, n_boot, n_CPU, name_first_column, newdata,
-  param_matrix, param_matrix_full, param_matrix_ini, param_names, param_str,
-  param_values, pred_prob, print, print_level, save_pdf, save_rda, save_xlsx,
-  scale, seed, sex, steps, surv_bin, table, ub, xtol_rel)
+parameters(age_at_capture, ages, binary, capture_method, check, data,
+  death_prob, design_matrix, empty_design_matrix, empty_param_matrix_full,
+  file_name, fit_original, indices, lb, maxtime, meta_param_name,
+  meta_param_type, model, models_list, models_list_boot, n_boot, n_CPU,
+  name_first_column, newdata, param_matrix, param_matrix_full, param_matrix_ini,
+  param_names, param_str, param_values, pred_prob, print, print_level, save_pdf,
+  save_rda, save_xlsx, scale, seed, sex, steps, surv_bin, table, ub, xtol_rel)
 }
 \arguments{
 \item{age_at_capture}{The age at capture}
 
 \item{ages}{A vector of ages for which to perform the interpolation}
+
+\item{binary}{A boolean indicated if the binary version of the package must be built}
 
 \item{capture_method}{A character indicating the method of capture of the elephant: \var{"CAPTIVE"}, \var{"IMM"}, \var{"MILARSHI"} or \var{"STOCKADE"}}
 
@@ -98,8 +100,6 @@ parameters(age_at_capture, ages, capture_method, check, data, death_prob,
 \item{ub}{Upper boundary for parameter values during the optimisation (default = 3)}
 
 \item{xtol_rel}{Tolerance parameter for nloptr}
-
-\item{binary}{A boolean indicated if the binary version of the package must be built}
 }
 \description{
 Here is the list of all parameters used in the package.
