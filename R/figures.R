@@ -18,7 +18,7 @@ plot_baseline <- function(data, models_list, save_pdf = FALSE) {
   }
 
   graphics::par(mfrow = c(1, 1))
-  graphics::par(las = 2, cex = 2, mar = c(4.5, 4.5, 1.5, 1), oma = c(0, 0, 0, 0), mgp = c(3.5, 1, 0))
+  graphics::par(las = 1, cex = 2, mar = c(4.5, 4.5, 1.5, 1), oma = c(0, 0, 0, 0), mgp = c(3.5, 1, 0))
   cex_legend <- 0.7
 
   ages_for_predictions_males   <- seq(0, max(data[data$Sex == "males" & data$CaptureMethod == "CAPTIVE", "Age"]), 0.01)
@@ -55,7 +55,7 @@ plot_baseline <- function(data, models_list, save_pdf = FALSE) {
                    legend = c(1500, 1000, 500, 100), bty = "n")
 
   graphics::axis(2, at = seq(0, 0.15, 0.025))
-  graphics::axis(1, at = seq(0, 55, 5))
+  graphics::axis(1, at = seq(0, 60, 10))
   graphics::box()
 
   if (save_pdf) {
@@ -128,7 +128,7 @@ plot_capture <- function(data, models_list, save_pdf = FALSE) {
     grDevices::pdf("plot_capture.pdf", width = 7, height = 7/2, fonts = "sans")
   }
 
-  graphics::par(mfrow = c(1, 2), las = 2, mar = c(4.5, 4.5, 1.5, 1), oma = c(0, 0, 0, 0), mgp = c(3.5, 1, 0))
+  graphics::par(mfrow = c(1, 2), las = 1, mar = c(4.5, 4.5, 1.5, 1), oma = c(0, 0, 0, 0), mgp = c(3.5, 1, 0))
 
   cex <- 1
   cex_axis <- cex
@@ -158,7 +158,7 @@ plot_capture <- function(data, models_list, save_pdf = FALSE) {
 
   graphics::box()
   graphics::axis(2, cex.axis = cex_axis)
-  graphics::axis(1, at = seq(0, 55, 5), cex.axis = cex_axis)
+  graphics::axis(1, at = seq(0, 50, 10), cex.axis = cex_axis)
   graphics::legend("bottomright", legend = c("immobilization", "milarshikar", "stockade"),
                    col = rep(1, 3), bty = "n", lty = c(4,2,3), lwd = c(rep(1.5, 2), 3.5),
                    cex = cex_legend, title = "Capture method:")
@@ -181,7 +181,7 @@ plot_capture <- function(data, models_list, save_pdf = FALSE) {
                    legend = c("5 yrs", "20 yrs"), bty = "n")
   graphics::box()
   graphics::axis(2, cex.axis = cex_axis)
-  graphics::axis(1, at = seq(0, 55, 1), cex.axis = cex_axis)
+  graphics::axis(1, at = seq(0, 20, 2), cex.axis = cex_axis)
   graphics::mtext("b", cex = 1, at = 0, line = 0, font = 1, las = 1)
 
   if (save_pdf) {
@@ -219,7 +219,7 @@ plot_captured_demog <- function(data, save_pdf = FALSE){
 
   data_age <- data$ElesCapturedByAge
   graphics::par(mfrow = c(1, 2))
-  graphics::par(las = 2, cex = 0.8, mar = c(4.5,4.5,1.5,1), oma = c(0,0,0,0), mgp = c(3.5,1,0))
+  graphics::par(las = 1, cex = 0.8, mar = c(4.5,4.5,1.5,1), oma = c(0,0,0,0), mgp = c(3.5,1,0))
 
   cex <- 1
   cex_axis <- cex
@@ -240,7 +240,7 @@ plot_captured_demog <- function(data, save_pdf = FALSE){
          pch = c(21, 1, 25),
          pt.bg = c("black", "black", "black"),
          cex = cex_legend, title = "Capture method:")
-  graphics::axis(1, at = seq(0, 55, 5), cex.axis = cex_axis)
+  graphics::axis(1, at = seq(0, 50, 10), cex.axis = cex_axis)
   graphics::axis(2, cex.axis = cex_axis)
   graphics::box()
   graphics::mtext("a", cex = 1, at = 0, line = 0, font = 1, las = 1)
@@ -294,7 +294,7 @@ plot_survivorship <- function(data, models_list, save_pdf = FALSE) {
   }
 
   graphics::par(mfrow = c(1, 1))
-  graphics::par(cex = 2, las = 2, mar = c(4.5, 4.5, 1.5, 1), oma = c(0, 0, 0, 0), mgp = c(3.5, 1, 0))
+  graphics::par(cex = 2, las = 1, mar = c(4.5, 4.5, 1.5, 1), oma = c(0, 0, 0, 0), mgp = c(3.5, 1, 0))
   cex_legend <- 0.7
 
   ## predictions for all observations
@@ -371,7 +371,7 @@ plot_survivorship <- function(data, models_list, save_pdf = FALSE) {
                    cex = cex_legend)
 
   graphics::axis(2, at = seq(0, 1, 0.2))
-  graphics::axis(1, at = seq(0, 55, 5))
+  graphics::axis(1, at = seq(0, 55, 10))
   graphics::box()
 
   if (save_pdf) {
