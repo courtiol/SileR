@@ -119,8 +119,8 @@ table_model_averaging <- function(models_list, models_list_boot, save_xlsx = FAL
   bias <- do.call("cbind", lapply(expanded_param_matrix_list, function(p) p[, "value"] - params_mean))
   raw <- SEs^2 + bias^2
   table_MA <- data.frame(Mean = params_mean, SE = sqrt(raw %*% aic_weights))
-  table_MA$Lwr <- table_MA$Mean + stats::pnorm(0.025)*table_MA$SE
-  table_MA$Upr <- table_MA$Mean + stats::pnorm(0.975)*table_MA$SE
+  table_MA$Lwr <- table_MA$Mean + stats::qnorm(0.025)*table_MA$SE
+  table_MA$Upr <- table_MA$Mean + stats::qnorm(0.975)*table_MA$SE
   table_MA$Star <- ifelse(table_MA$Lwr > 1e-5, "*", "")
 
   colnames(table_MA)[ncol(table_MA)] <- " "
