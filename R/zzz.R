@@ -50,7 +50,7 @@ info_package <- function() {
 upload_on_drat <- function(binary = FALSE){
   if (requireNamespace("devtools") & requireNamespace("drat")) {
     print("Building the package...")
-    path <- devtools::build(binary = TRUE)
+    path <- devtools::build(binary = binary)
     print("Moving the package to local drat folder and commiting changes in git...")
     drat::insertPackage(path, "~/Boulot/Mes_projets_de_recherche/R_packages/drat", commit = TRUE)
     print("Pushing the package on GitHub...")
