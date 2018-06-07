@@ -180,6 +180,10 @@ table_lifespan(models_list = Models,
 
 ### Note: the following outputs would be different on the complete dataset,
 ### except for figure 3 that uses counts derived from the compete dataset.
+### In particular, the figure 4 cannot be properly drawn as it requires
+### yearly observations of elephants at each age, which is not the case of in
+### the subset of the data.
+###
 ### Also, if you have computed Models_small and Models_boot_small above,
 ### use those instead of Models and Models_boot to see the results based on
 ### your fits.
