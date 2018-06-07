@@ -14,5 +14,6 @@ This is a function for development purpose only. Drat is a package that
 allows for the installation of R packages from GitHub. We use this system to
 distribute the package (see Readme.Rmd). The function defined here builds the
 package, commits the changes and push them on the drat repository on GitHub.
-It is designed to work on the maintainer computer only.
+It is designed to work on the maintainer computer only. This function is for
+development purpose only and is thus not exported.
 }
