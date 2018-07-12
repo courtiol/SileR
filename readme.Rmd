@@ -40,7 +40,7 @@ some development tools.
 
 Whichever option you choose, to install successfully the R package you will need:
 
-* an up to date installation of R (https://cran.r-project.org);
+* an up-to-date installation of R (https://cran.r-project.org);
 
 * the R package ```drat``` installed. You can install it by typing:
 
