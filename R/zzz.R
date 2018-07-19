@@ -7,8 +7,8 @@
     "\n This package has not been conceived for general use.",
     "\n It has only been created to document the analysis of the paper:",
     "\n ",
-    "\n Lahdenper\u00E4, Mar, Courtiol and Lummaa (2018)",
     "\n Differences in age-specific mortality between wild-caught and captive-born Asian elephants.",
+    "\n Lahdenper\u00E4, Mar, Courtiol and Lummaa (2018) Nature Communications.",
     "\n ",
     "\n Type ?SileR for information about how to use this package!",
     "\n"

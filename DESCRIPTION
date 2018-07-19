@@ -1,7 +1,7 @@
 Package: SileR
 Type: Package
 Title: Survival Analysis of Elephants Using an Extension of the William Siler's Framework
-Version: 0.2.3
+Version: 0.9.0
 Author: Mirkka Lahdenperä [aut], Khyne U Mar [aut], Alexandre Courtiol [aut, cre] and Virpi Lummaa [aut]
 Maintainer: Alexandre Courtiol <alexandre.courtiol@gmail.com>
 Depends:
@@ -23,10 +23,10 @@ Description:
     This R package aims at documenting the workflow behind the results from the 
     paper entitled "Differences in age-specific mortality between wild-caught 
     and captive-born Asian elephants" by Mirkka Lahdenperä, Khyne U Mar, 
-    Alexandre Courtiol and Virpi Lummaa (in review). The main goal of the 
-    package is to fit survival models derived from a model introduced by 
-    Siler ("A competiting-risk model for animal mortality", Ecology, 1979). The
-    main differences are that the effect of covariate(s) are being investigated 
+    Alexandre Courtiol and Virpi Lummaa (2018) Nature Communications.
+    The main goal of the package is to fit survival models derived from a model 
+    introduced by Siler ("A competiting-risk model for animal mortality", Ecology, 1979).
+    The main differences are that the effect of covariate(s) are being investigated 
     and that the survival models have to be fitted on right and left censored 
     longitudinal data. This package has not been conceived for general use.
     It serves to document the steps of our analysis.
