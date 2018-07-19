@@ -4,7 +4,7 @@ This is the GitHub repository hosting the R package SileR. The package will not
 evolve much in the future because it aims at documenting how we obtained the
 results for the paper entitled "Differences in age-specific mortality
 between wild-caught and captive-born Asian elephants" by Mirkka Lahdenperä,
-Khyne U Mar, Alexandre Courtiol and Virpi Lummaa (in review).
+Khyne U Mar, Alexandre Courtiol and Virpi Lummaa (in press).
 The only planned updates are those that will be necessary to maintain
 compatibility with other packages, so that our code won't break.
 
