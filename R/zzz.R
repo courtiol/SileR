@@ -52,7 +52,8 @@ upload_on_drat <- function(binary = FALSE){
     print("Building the package...")
     path <- devtools::build(binary = binary)
     print("Moving the package to local drat folder and commiting changes in git...")
-    drat::insertPackage(path, "~/Boulot/Mes_projets_de_recherche/R_packages/drat", commit = TRUE)
+    drat::insertPackage(path, "~/Boulot/Mes_projets_de_recherche/R_packages/drat", commit = TRUE) ## MacOS + Linux
+    #drat::insertPackage(path, "C:/Users/courtiol/Dropbox/Boulot/Mes_projets_de_recherche/R_packages/drat", commit = TRUE) ## Windows
     print("Pushing the package on GitHub...")
     system("cd ~/Boulot/Mes_projets_de_recherche/R_packages/drat; git push")
     print("done")
