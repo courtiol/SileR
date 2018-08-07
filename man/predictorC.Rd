@@ -4,7 +4,8 @@
 \alias{predictorC}
 \title{C++ Function computing the predicted probabilities}
 \usage{
-predictorC(w1, b1, w2, b2, w3, w4, w5, b4, b5, age, timecap, indices_captured)
+predictorC(w1, b1, w2, b2, w3, w4, w5, b4, b5, age, timecap,
+  indices_captured)
 }
 \arguments{
 \item{w1}{The vector of the corresponding name extracted from the design matrix}

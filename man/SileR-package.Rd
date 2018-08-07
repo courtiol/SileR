@@ -10,11 +10,11 @@ Framework}
 This R package aims at documenting the workflow behind the results from the
 paper entitled "Differences in age-specific mortality between wild-caught and
 captive-born Asian elephants" by Mirkka Lahdenperä, Khyne U Mar, Alexandre
-Courtiol and Virpi Lummaa. The main function of the package is to fit
-survival models derived from a model introduced by Siler (1979). The main
-differences are that the effect of covariate(s) are being investigated and
-that the survival models have to be fitted on right and left censored
-longitudinal data.
+Courtiol and Virpi Lummaa (2018) Nature Communicaitons. The main function of
+the package is to fit survival models derived from a model introduced by
+Siler (1979). The main differences are that the effect of covariate(s) are
+being investigated and that the survival models have to be fitted on right
+and left censored longitudinal data.
 }
 \details{
 This package has not been conceived for general use!
@@ -203,8 +203,8 @@ plot_survivorship(data = SurvEles_small, models_list = Models, save_pdf = save_d
 
 }
 \references{
-Khyne U Mar, Mirkka Lahdenperä, Alexandre Courtiol and
-Virpi Lummaa (2018). Differences in age-specific mortality between
+Mirkka Lahdenperä, Khyne U Mar, Alexandre Courtiol and Virpi Lummaa (2018).
+Nature Communications. Differences in age-specific mortality between
 wild-caught and captive-born Asian elephants.
 
 William Siler (1979). A competiting-risk model for animal mortality. Ecology 60(4), 750-757.

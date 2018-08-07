@@ -4,7 +4,8 @@
 \alias{logLik_from_design_matrix}
 \title{Compute the log-likelihood from the design matrix}
 \usage{
-logLik_from_design_matrix(data, design_matrix, scale = 1, indices = NULL)
+logLik_from_design_matrix(data, design_matrix, scale = 1,
+  indices = NULL)
 }
 \arguments{
 \item{data}{The dataset to be used}

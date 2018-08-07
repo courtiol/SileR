@@ -4,7 +4,8 @@
 \alias{table_SE}
 \title{Build a table with the standard error of all parameter estimates for all models}
 \usage{
-table_SE(models_list, models_list_boot, print = TRUE, save_xlsx = FALSE)
+table_SE(models_list, models_list_boot, print = TRUE,
+  save_xlsx = FALSE)
 }
 \arguments{
 \item{models_list}{The list of fitted models}
